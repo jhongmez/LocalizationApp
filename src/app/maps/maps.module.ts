@@ -13,6 +13,9 @@ import { PropertiesPageComponent } from './pages/properties-page/properties-page
 import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { ZoomRangePageComponent } from './pages/zoom-range-page/zoom-range-page.component';
 
+import * as mapboxgl from 'mapbox-gl';
+// * debemos manejarlo de esta manera
+(mapboxgl as any).accessToken = 'pk.eyJ1IjoiamhvbmdvbWV6ZGV2ZWxvcGVyIiwiYSI6ImNscDE0NTNycTBkN3YybHM0dnBja3l4c2MifQ.t1sTVKRtVm2Jmqe3Hu8mQQ';
 
 @NgModule({
   declarations: [
